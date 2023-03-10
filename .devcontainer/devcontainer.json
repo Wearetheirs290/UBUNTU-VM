@@ -3,7 +3,10 @@
 	"features": {
 		"ghcr.io/devcontainers/features/desktop-lite:1": {
 			"password": "vscode",
-			"webport": "6080"
+			"webport": "6080",
+			"runArgs": ["--init", "--sh-size=1g"],
+			"forwardPorts": [6080],
+			"overrideCommand": false
 		}
 	}
 }
