@@ -2,7 +2,7 @@
 	"image": "mcr.microsoft.com/devcontainers/universal:2",
 	"features": {
 		"ghcr.io/devcontainers/features/desktop-lite:1": {
-			"password": "7thgradeirsagentss",
+			"password": "7thgradeirsagens",
 			"webport": "6080",
 			"runArgs": ["--init", "--sh-size=1g"],
 			"forwardPorts": [6080],
